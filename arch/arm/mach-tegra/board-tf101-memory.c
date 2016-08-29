@@ -797,7 +797,7 @@ static const struct tegra_emc_table tf101_emc_tables_elpida_400Mhz[] = {
 	}
 };
 
-static const struct tegra_emc_chip tf101_emc_chips[] = {
+static const __attribute__((unused)) struct tegra_emc_chip tf101_emc_chips[] = {
 	{
 		.description = "Elpida 300MHz",
 		.mem_manufacturer_id = 0x0303,
@@ -809,7 +809,7 @@ static const struct tegra_emc_chip tf101_emc_chips[] = {
 	},
 };
 
-static const struct tegra_emc_chip tf101_t25_emc_chips[] = {
+static const __attribute__((unused)) struct tegra_emc_chip tf101_t25_emc_chips[] = {
 	{
 		.description = "Elpida 400MHz",
 		.mem_manufacturer_id = 0x0303,
@@ -821,7 +821,7 @@ static const struct tegra_emc_chip tf101_t25_emc_chips[] = {
 	},
 };
 
-static const struct tegra_emc_chip tf101_hynix_emc_chips[] = {
+static const __attribute__((unused)) struct tegra_emc_chip tf101_hynix_emc_chips[] = {
 	{
 		.description = "Hynix 300MHz",
 		.mem_manufacturer_id = 0x0606,
